@@ -1,0 +1,184 @@
+@import url(https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600;700&display=swap);
+
+:root {
+  --color-body: #b6cbce;
+  --color-heading: #eef3db;
+  --color-base: #ffffff;
+  --color-background: #000000;
+  --color-brand: #ffa07a;
+  --color-brand2: #f08080;
+}
+body {
+  background-color: var(--color-background);
+  color: var(--color-body);
+  font-family: "Bai Jamjuree", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--color-heading);
+  font-weight: 700;
+}
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+a:hover {
+  color: var(--color-brand);
+}
+img {
+  width: 100%;
+}
+/* custom css for navbar*/
+.navbar {
+  background-color: #2c2c2c;
+}
+.navbar .nav-link {
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
+}
+.navbar .nav-link:hover {
+  color: rgb(89, 89, 89);
+}
+@media (min-width: 992px) {
+  .navbar {
+    min-height: 100vh;
+    width: 240px;
+  }
+
+  .navbar-brand img {
+    border: rgb(105, 105, 105);
+  }
+
+  .content-wrapper {
+    padding-left: 240px;
+  }
+}
+
+.full-height {
+  min-height: 100vh;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  border-bottom: 2px solid gray;
+}
+.btn {
+  padding: 12px 28px;
+  font-weight: 700;
+}
+.btn-brand {
+  background-color: rgb(61, 61, 61);
+  border-color: rgb(46, 46, 46);
+  color: var(--color-base);
+}
+.btn-brand:hover {
+  background-color: rgb(89, 89, 89);
+  color:black;
+  border-color: rgb(46, 46, 46);
+}
+
+.link-custom {
+  font-weight: 700;
+  position: relative;
+}
+.text-brand {
+  color: rgb(169, 164, 164);
+}
+.bg-base {
+  background-color: #2d2929;
+}
+.shadow-effect:hover {          
+  box-shadow: -6px 6px 0 0 rgb(83, 83, 83);
+}
+.iconbox {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  background-color: #000000;
+  color: var(--color-base);
+}
+.card-custom .card-custom-img {
+  overflow: hidden;
+}
+
+/* Background Color*/
+#name {
+  outline: none;
+  background-color: var(--color-base);
+  
+  
+}
+#name:focus {
+  color: white;
+  font-size: medium;
+  outline: none;
+  border: 3px solid var(--color-brand);
+}
+.mydetails {
+  background-color: var(--color-base);
+}
+.centerdiv {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  margin-bottom: 5px;
+}
+.centerdiv a {
+  height: 30px;
+  width: 30px;
+  background-color: var(--color-base);
+  border-radius: 50px;
+  text-align: center;
+  margin: 3px;
+  box-shadow: 1px 2px 1px 1px var(--color-brand);
+
+  justify-content: center;
+  display: flex;
+}
+
+.centerdiv a i {
+  transition: all 0.3s linear;
+  text-align: center;
+  font-size: 30x;
+  line-height: 30px;
+}
+p{
+  color:#b9b9b9;
+}
+.centerdiv a:hover i {
+  transform: scale(1.4);
+}
+.fa-linkedin {
+  color: #0097e6;
+}
+
+.fa-facebook {
+  color: blue;
+}
+.fa-github {
+  color: black;
+}
+ 
+.row div input:focus {
+  background-color: transparent;
+  color: white;
+  font-size: medium;
+  outline: none;
+  border: 3px solid var(--color-brand);
+}
+
+row div textarea {
+  background: transparent;
+  outline: none;
+ font-size: 20px;
+}
